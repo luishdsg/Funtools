@@ -1,0 +1,56 @@
+:root{
+    --pink: #d63384;
+    --orange: orange;
+    
+}
+body{
+    color:white; 
+    font-weight: 300 !important;
+    text-align: -webkit-center;
+}
+input{
+    border:none;
+    color: black;
+    border-radius: 100rem;
+    background: white;
+    outline: none;
+    padding: 20px;
+}
+
+
+.btn-calc{
+margin: 0px 10px;
+}
+.dflex{
+  
+    text-align-last: center;
+
+}
+.c{
+    justify-content: center;
+}
+.flex{
+    display: flex !important;
+}
+.btn{
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+}
+.bgpink{
+    background-color: var(--pink) !important;
+    
+}
+.card{
+    color: white !important;
+}
+.d{
+    display: block !important;
+}
+.bgorange{
+    background: var(--orange) !important;
+}
+.dis{
+    color: orange;
+    font-size: 22px;
+}

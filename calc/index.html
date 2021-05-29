@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador </title>
+</head>
+<body class="bg-dark "> 
+  <br/>
+
+    <h1 class="display-4 dflex">Tabuada (+ - x ÷ ) 10</h1>
+    
+    <div class="dis dflex" id="erro"></div>
+    <br/>
+            <div class="row align-items-center dflex">
+              <div class="col-sm ">
+                  <input type="number" id="numero" placeholder="digite um número" />
+              </div>
+            </div>  
+            <br/>
+             <h5>escolha uma operação</h5>
+            <div class="container flex c">
+                <button type="button" onclick="ca()" id="cacular-adicao" class="btn btn-primary btn-calc">+</button>
+                <button type="button" onclick="cs()" id="cacular-subtracao" class="btn btn-calc btn-success">-</button>
+                <button type="button" onclick="cm()" id="cacular-multi" class="btn btn-calc bgpink">x</button>
+                <button type="button" onclick="cd()" id="cacular-divisao" class="btn  btn-calc bgorange">÷</button>
+            </div>
+            <br/>
+            <br/>
+            <div class="container ">
+              
+              <div class="container ">
+                  <div class="card">
+                    
+                    <div class="card-body bg-dark" id="tetm">
+                      <div id="txta"></div>
+                      <div id="txts"></div>
+                      <div id="txtm"></div>
+                      <div id="txtd"></div>
+                    </div>
+                </div>
+              </div>
+                
+              </div>
+            </div>
+            <script src="ca.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    color:white; 
+    text-align: -webkit-center;
+}
+input{
+    border:none;
+    color: black;
+    border-radius: 100rem;
+    background: white;
+    outline: none; 
+    padding: 20px;
+}
+#res{
+    color: white;
+
+}
+button{
+    border-radius: 1rem !important;
+}
+#erro{
+    color: red;
+}
+select{
+    height: auto ;
+    padding: 10px;
+    color: white;
+}
+.center, 
+#center{
+    justify-content: center;
+}
+
+.dflex{
+    display: block !important;
+    text-align-last: center;
+
+}
+.d{
+    display: block !important;
+}
+.dis{
+    color: orange;
+    font-size: 22px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador </title>
+</head>
+<body class="bg-dark "> 
+
+    <h1 class="display-4 dflex">Analisador de Números</h1>
+    
+    <div class="dis dflex" id="erro"></div>
+    <br/>
+            <div class="row align-items-center dflex">
+
+              <div class="col-sm center d-flex">
+                <input type="number" id="input" placeholder="escolha de 0 a 1000" />
+                
+  <button type="button" onclick="calcular()" id="cacular" class="btn dflex btn-warning">Add</button>
+          
+              </div>
+              
+            </div>
+            <br/>
+            <br/>
+            
+            <div class="center w3-row" id="erro"/>
+            <br/>
+
+            
+            <div class="container">
+                  <div class="card-body ">
+                    
+                    <select id="flista" class=" bg-dark">
+                      <option vlaue="0">selecionados</option>
+                    </select>
+                    
+                    <button type="button" onclick="resultado()" id="ok" class="btn btn-primary">Calcular</button>
+          
+                <div class="card-body bg-dark" id="res">
+                </div>
+              </div>
+            </div>
+          
+            
+            <script src="js.js"></script>
+</body>
+</html>
